@@ -1,0 +1,21 @@
+SM3 Spectacular Edition v1.2.0 — Credits
+=======================================
+
+Created by
+  zryuyu
+
+Built on
+  TeaserPlay — Spider-Man 3 Remastered (ReShade visual pack)
+  ReShade by crosire (https://reshade.me/)
+
+Shader authors (shipped)
+  Pascal Gilcher / Marty McFly — qUINT MXAO & SSR
+  prod80 (Bas Veth) — PD80 bloom & LUT packs
+  Ganossa — AmbientLight, FakeMotionBlur
+  zryuyu — SpectacularFinish, CinematicMotionBlur
+  FilmicPass + FakeHDR, Dehaze, Unsharp, DPX authors (see headers)
+  Niklas Haas — Deband
+  Jorge Jimenez et al. — SMAA
+  AMD — FidelityFX CAS
+
+See NOTICE.txt for licenses.

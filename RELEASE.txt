@@ -1,0 +1,21 @@
+SM3 Spectacular Edition — Official Release Notes
+================================================
+
+Version: 1.2.0
+Author:  zryuyu
+Date:    2026-09-28
+
+1.2.0: public package — INSTALL.bat, verify, multi-locale FPS, no locale overwrite.
+1.1.8: FPS menu labels for all language SKUs (igct_*.bnx surgical patch).
+1.1.7: hybrid conflict closure — Reset/MSAA, AF≠ReShade, Steam retry, SSR FOV.
+1.1.6: full-mod audit — config/FPS/Steam/AF/MSAA.
+1.1.5: pipeline audit — order, sharpen, Steam stack, mip bias.
+1.0.0: first public hybrid release.
+
+Package
+  Folder: SM3-Spectacular-Edition-v1.2.0\
+  Zip:    SM3-Spectacular-Edition-v1.2.0.zip
+
+Nexus / distribution
+  Upload ONLY the zip from dist\
+  Players: copy into Game.exe folder (rename binkw32.dll -> binkw32_stock.dll once)

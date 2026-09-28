@@ -1,0 +1,116 @@
+SM3 Spectacular Edition — Third-Party Notices
+============================================
+
+Version 1.2.0 — official public release.
+
+This package is a fan modification for Spider-Man 3 (PC, 2007).
+It redistributes and/or depends on third-party software. Authors retain their rights.
+This NOTICE does not grant you extra rights beyond each component's license.
+
+
+1) SM3 Spectacular companion (binkw32.dll) and packaging
+--------------------------------------------------------
+Author: zryuyu
+Custom FPS / CityLife / LOD / FOV / AF companion and install scripts.
+
+
+2) ReShade
+----------
+Copyright (c) crosire / Patrick Mours
+License: BSD 3-Clause (see LICENSE-RESHADE.txt)
+Version used: ReShade 4.9.1 (32-bit), shipped as d3d9.dll
+Homepage: https://reshade.me/
+
+
+3) TeaserPlay — Spider-Man 3 Remastered (ReShade pack)
+------------------------------------------------------
+Visual preset / shader collection used as the base for hybrid visuals.
+This edition ships a slim subset of that pack's shaders and textures.
+Credit: TeaserPlay Remastered ReShade pack.
+
+
+4) qUINT shaders (MXAO, SSR, common headers)
+--------------------------------------------
+Author: Pascal Gilcher / Marty McFly
+Copyright (c) Pascal Gilcher / Marty McFly. All rights reserved.
+Files: reshade-shaders/Shaders/qUINT/*
+
+These files are included because they are part of the TeaserPlay Remastered
+visual baseline this edition builds on. Authors retain all rights.
+Do not extract or rehost them separately without permission.
+RTGI (qUINT_rtgi) is NOT included.
+
+
+5) BloomingHDR / AstrayFX (not shipped)
+---------------------------------------
+Author: Jose Negrete AKA BlueSkyDefender
+BloomingHDR is licensed CC BY-ND 4.0 and is intentionally NOT redistributed
+in this package. Bloom/glow uses prod80 PD80 bloom instead.
+
+
+6) prod80 / PD80 shaders and LUTs
+---------------------------------
+Author: prod80 (Bas Veth)
+License: MIT (see headers in PD80_*.fx / .fxh)
+LUT textures: pd80_cinelut.png, pd80_example-lut.png, noise textures
+
+
+7) AmbientLight.fx / FakeMotionBlur.fx
+--------------------------------------
+Copyright (C) 2015 Ganossa
+(see file headers)
+
+
+7b) CinematicMotionBlur.fx
+--------------------------
+Author: zryuyu — SM3 Spectacular Edition
+License: MIT (see file header)
+Optical-flow approximation of cinematic motion blur (optional / off by default).
+
+
+7c) SpectacularFinish.fx
+------------------------
+Author: zryuyu — SM3 Spectacular Edition
+License: MIT (see file header)
+Finishing pass: soft vignette, midtone depth, light film grain, warm highlights,
+optional 2.39 cinema letterbox.
+
+
+8) Deband.fx
+------------
+Copyright (c) 2015 Niklas Haas
+(see file header)
+
+
+9) SMAA
+-------
+Copyright (C) 2013 Jorge Jimenez, Jose I. Echevarria, Belen Masia,
+Fernando Navarro, Diego Gutierrez
+License: MIT (see SMAA.fxh)
+http://www.iryoku.com/smaa/
+
+
+10) AMD FidelityFX CAS
+----------------------
+Copyright (c) 2017-2019 Advanced Micro Devices, Inc.
+(see CAS.fx header)
+
+
+11) Other ReShade community shaders in the slim pack
+----------------------------------------------------
+FakeHDR, Dehaze, Unsharp, DPX, FilmicPass and shared ReShade.fxh / ReShadeUI.fxh —
+see individual file headers for authors and terms.
+
+
+12) Spider-Man 3 / Activision / Neversoft / Bink
+------------------------------------------------
+Game assets and Bink Video runtime are NOT redistributed by this package.
+You must use your own legal game install.
+Rename your original binkw32.dll to binkw32_stock.dll before installing.
+
+
+No endorsement
+--------------
+This project is not affiliated with or endorsed by Activision, Marvel,
+Neversoft, TeaserPlay, crosire, BlueSkyDefender, Marty McFly / Pascal Gilcher,
+prod80, or other named authors.
